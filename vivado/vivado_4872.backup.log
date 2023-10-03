@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sat Nov  5 14:52:35 2022
+# Process ID: 4872
+# Current directory: E:/いタ河/河/CO 毙/LAB3-2 answer/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5736 E:\いタ河\河\CO 毙\LAB3-2 answer\project_1\project_1.xpr
+# Log file: E:/いタ河/河/CO 毙/LAB3-2 answer/project_1/vivado.log
+# Journal file: E:/いタ河/河/CO 毙/LAB3-2 answer/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/いタ河/河/CO 毙/LAB3-2 answer/project_1/project_1.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ECL_LAB/Desktop/LAB3-2 answer/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 817.812 ; gain = 109.270
+update_compile_order -fileset sources_1

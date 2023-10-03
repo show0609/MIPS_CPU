@@ -1,0 +1,92 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 4872
+License: Customer
+
+Current time: 	Sat Nov 05 14:53:33 CST 2022
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 20 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	GUGU
+User home directory: C:/Users/GUGU
+User working directory: E:/いタ河/河/CO 毙/LAB3-2 answer/project_1
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.3
+RDI_DATADIR: D:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/GUGU/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/GUGU/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/GUGU/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	E:/いタ河/河/CO 毙/LAB3-2 answer/project_1/vivado.log
+Vivado journal file location: 	E:/いタ河/河/CO 毙/LAB3-2 answer/project_1/vivado.jou
+Engine tmp dir: 	E:/いタ河/河/CO 毙/LAB3-2 answer/project_1/.Xil/Vivado-4872-DESKTOP-OV3H3RV
+
+GUI allocated memory:	139 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 505 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 50 MB (+49973kb) [00:00:15]
+// [Engine Memory]: 483 MB (+355101kb) [00:00:15]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: E:\いタ河\河\CO 毙\LAB3-2 answer\project_1\project_1.xpr. Version: Vivado v2017.3 
+// bs (cl):  Open Project : addNotify
+// [GUI Memory]: 58 MB (+6220kb) [00:00:16]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {E:/いタ河/河/CO 毙/LAB3-2 answer/project_1/project_1.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 510 MB. GUI used memory: 30 MB. Current time: 11/5/22 2:53:36 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 532 MB (+25963kb) [00:00:21]
+// Tcl Message: open_project {E:/いタ河/河/CO 毙/LAB3-2 answer/project_1/project_1.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/ECL_LAB/Desktop/LAB3-2 answer/project_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 581 MB (+23233kb) [00:00:33]
+// [GUI Memory]: 63 MB (+1697kb) [00:00:37]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 624 MB. GUI used memory: 39 MB. Current time: 11/5/22 2:53:54 PM CST
+// [Engine Memory]: 624 MB (+14503kb) [00:00:39]
+// Project name: project_1; location: E:/いタ河/河/CO 毙/LAB3-2 answer/project_1; part: xc7a100tcsg324-3
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 817.812 ; gain = 109.270 
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 67 MB (+1159kb) [00:00:44]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.

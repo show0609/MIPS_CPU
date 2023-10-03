@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Nov  9 00:28:37 2022
+# Process ID: 7548
+# Current directory: E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_HW/COLAB3-2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22248 E:\いタ河\河\CO 毙\2022 CS COLAB3\CO_HW\COLAB3-2\project_1.xpr
+# Log file: E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_HW/COLAB3-2/vivado.log
+# Journal file: E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_HW/COLAB3-2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_HW/COLAB3-2/project_1.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_LAB3-2/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 877.781 ; gain = 84.969
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  9 00:30:36 2022...

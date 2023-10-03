@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Nov  9 01:00:20 2022
+# Process ID: 8300
+# Current directory: E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_HW/COLAB3-2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10924 E:\いタ河\河\CO 毙\2022 CS COLAB3\CO_HW\COLAB3-2\project_1.xpr
+# Log file: E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_HW/COLAB3-2/vivado.log
+# Journal file: E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_HW/COLAB3-2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/いタ河/河/CO 毙/2022 CS COLAB3/CO_HW/COLAB3-2/project_1.xpr}
+update_compile_order -fileset sources_1

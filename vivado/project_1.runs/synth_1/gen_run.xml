@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1668150333">
+  <File Type="PA-TCL" Name="testbench2.tcl"/>
+  <File Type="REPORTS-TCL" Name="testbench2_reports.tcl"/>
+  <File Type="RDS-RDS" Name="testbench2.vds"/>
+  <File Type="RDS-UTIL" Name="testbench2_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="testbench2_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="testbench2.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/CPU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU.v"/>
+        <Attr Name="ImportTime" Val="1541696480"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/EXECUTION.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../EXECUTION.v"/>
+        <Attr Name="ImportTime" Val="1541951706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/INSTRUCTION_DECODE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../INSTRUCTION_DECODE.v"/>
+        <Attr Name="ImportTime" Val="1667447058"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/INSTRUCTION_FETCH.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../INSTRUCTION_FETCH.v"/>
+        <Attr Name="ImportTime" Val="1667446966"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/MEMORY.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MEMORY.v"/>
+        <Attr Name="ImportTime" Val="1541696578"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/testbench2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../testbench2.v"/>
+        <Attr Name="ImportTime" Val="1667457349"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="testbench2"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/CO_lab2b/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../2022_CSCO_LAB2b/2022_CSCO_LAB2b/COLAB2b_7segment/COLAB2b_7segment.srcs/constrs_1/imports/CO_lab2b/Nexys-4-DDR-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1666567725"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

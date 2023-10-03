@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Nov 11 15:52:47 2022
+# Process ID: 13304
+# Current directory: C:/Users/we/OneDrive - cs.ccu.edu.tw/大學課程/111-1/計算機組織/2022 CS COLAB3/CO_HW/COLAB3-2/project_1.runs/impl_1
+# Command line: vivado.exe -log testbench2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source testbench2.tcl -notrace
+# Log file: C:/Users/we/OneDrive - cs.ccu.edu.tw/大學課程/111-1/計算機組織/2022 CS COLAB3/CO_HW/COLAB3-2/project_1.runs/impl_1/testbench2.vdi
+# Journal file: C:/Users/we/OneDrive - cs.ccu.edu.tw/大學課程/111-1/計算機組織/2022 CS COLAB3/CO_HW/COLAB3-2/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source testbench2.tcl -notrace

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1668150333">
+  <File Type="ROUTE-PWR" Name="testbench2_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="testbench2.tcl"/>
+  <File Type="PWROPT-DCP" Name="testbench2_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="testbench2_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="testbench2_reports.tcl"/>
+  <File Type="BG-DRC" Name="testbench2.drc"/>
+  <File Type="OPT-HWDEF" Name="testbench2.hwdef"/>
+  <File Type="OPT-DCP" Name="testbench2_opt.dcp"/>
+  <File Type="OPT-DRC" Name="testbench2_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="testbench2_placed.dcp"/>
+  <File Type="PLACE-IO" Name="testbench2_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="testbench2_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="testbench2_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="testbench2_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="testbench2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="testbench2_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="testbench2_physopt.dcp"/>
+  <File Type="BG-BIT" Name="testbench2.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="testbench2_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="testbench2_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="testbench2_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="testbench2_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="testbench2_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="testbench2_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="testbench2.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="testbench2_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="testbench2.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="testbench2_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="testbench2.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="testbench2_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="testbench2.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="testbench2_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="testbench2_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="testbench2_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="testbench2_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="testbench2_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="testbench2_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="testbench2_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="testbench2.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="testbench2_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="testbench2_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="testbench2.nky"/>
+  <File Type="BITSTR-BMM" Name="testbench2_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="testbench2.mmi"/>
+  <File Type="BITSTR-LTX" Name="testbench2.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="testbench2.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/CPU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU.v"/>
+        <Attr Name="ImportTime" Val="1541696480"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/EXECUTION.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../EXECUTION.v"/>
+        <Attr Name="ImportTime" Val="1541951706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/INSTRUCTION_DECODE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../INSTRUCTION_DECODE.v"/>
+        <Attr Name="ImportTime" Val="1667447058"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/INSTRUCTION_FETCH.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../INSTRUCTION_FETCH.v"/>
+        <Attr Name="ImportTime" Val="1667446966"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/MEMORY.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MEMORY.v"/>
+        <Attr Name="ImportTime" Val="1541696578"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/LAB3-2 alpha/testbench2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../testbench2.v"/>
+        <Attr Name="ImportTime" Val="1667457349"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="testbench2"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/CO_lab2b/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../2022_CSCO_LAB2b/2022_CSCO_LAB2b/COLAB2b_7segment/COLAB2b_7segment.srcs/constrs_1/imports/CO_lab2b/Nexys-4-DDR-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1666567725"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
